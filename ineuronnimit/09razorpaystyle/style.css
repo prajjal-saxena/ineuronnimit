@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    /* background-color: #1d1d1d; */
+}
+
+header{
+    height: 80vh;
+    background-image: linear-gradient(to right bottom,
+                                    #12afe87e,
+                                    #383dc178),
+                      url('images/cycleman.jpg');
+    /* background: #02042C; */
+    background-size: cover;
+    background-position: bottom;
+    clip-path: polygon(100% 0, 100% 69%, 81% 90%, 0 66%, 0 0);
+}
+
+header h1{
+    color: #fff;
+    font-size: 70px;
+    padding-top: 15%;
+    padding-left: 15%;
+}
+.flex{
+    display: flex;
+    background-color: gray;
+    color: #fff;
+    height: 400px;
+}
+.img{
+    height: 400px;
+    width: 30%;
+    background-image: linear-gradient(to right bottom,
+                                       rgba(200, 49, 227, 0.342), rgba(46, 135, 203, 0.361)),
+                                       url('images/cycleman.jpg');
+    background-position: top;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}

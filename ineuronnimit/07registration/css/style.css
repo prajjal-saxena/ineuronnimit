@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+}
+html{
+    background: url('../images/back.png') no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    height: 100%;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mockup{
+    height: 628px;
+    width: 100%;
+}
+.form{
+    width: 100%;
+}
+.flex-column{
+    flex-direction: column;
+}
+.form-section{
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+    width: 75%;
+}
+.form-section h1{
+    font-size: 40px;
+    margin: 25px 0;
+    color: #343333;
+    text-transform: capitalize;
+}
+input{
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 1px solid #a7a7a7;
+    margin-bottom: 15px;
+    width: 35%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.btn{
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #f5962e;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+.btn-facebook{
+    transition: box-shadow 3s ease-in-out!important;
+}
+.btn-facebook:hover{
+    box-shadow: 0px 0px 100px rgb(50, 50, 140) inset;
+}

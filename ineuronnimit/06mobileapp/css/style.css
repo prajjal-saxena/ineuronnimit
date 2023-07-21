@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url('../images/cover.png') no-repeat center center/cover;
+    height: 100vh;
+    margin: 0 5%;
+}
+nav{
+    display: flex;
+    height: 20vh;
+}
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+.nav-menu-icon{
+    display: none;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-img{
+    flex: 1;
+    margin: auto;
+}
+.nav-logo{
+    display: block;
+}
+.brand-img img{
+    height: 80px;
+}
+.nav-button{
+    background-color: #E03B8B;
+    border: none;
+    padding: 5px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    flex: 1;
+    height: 80vh;
+}
+.col{
+    display: flex;
+    flex: 0.5;
+    min-height: 100%;
+}
+.col-2{
+    overflow: hidden;
+}
+.phone-img{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 80%;
+}
+.col-1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color:  #fff;
+}
+.col-1 p{
+    font-size: 25px;
+}
+.col-1 h1{
+    font-size: 64px;
+    margin: 20px;
+}
+.google-play-img{
+    height: 90px;
+}
+
+@media  screen and (max-width: 1000px) {
+    .phone-img{
+        height: 60%;
+    }
+    nav .nav-items{
+        display: none;
+    }
+    nav .nav-menu-icon{
+        display: block;
+        margin: auto;
+    }
+    nav .nav-menu-icon i{
+        color: #fff;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width : 700px){
+    .phone-img{
+        display: none;
+    }
+}
