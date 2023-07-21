@@ -1,0 +1,125 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    margin: 40px;
+    padding: 8px;
+}
+
+nav.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+nav.navbar-container div{
+    width: 30%;
+}
+nav.navbar-container img{
+    width: 30%;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+.list-item{
+    list-style: none;
+}
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+}
+nav.navbar-container div {
+    width: 30%;
+}
+
+.hero-container {
+    position: relative;
+}
+.hero-container img {
+    width: 53%;
+}
+span.star img {
+    width: 3%!important;
+}
+span.globe img {
+    width: 5%;
+}
+.icons img {
+    width: 3%;
+}
+.person-img{
+    position: absolute;
+    top: 60px;
+
+}
+span.square img {
+    width: 26%;
+    position: relative;
+    top: 170px;
+    left: 45px;
+}
+span.star1 img {
+    width: 5%;
+    position: absolute;
+    right: 12px;
+    top: 71px;
+}
+.hero-container-right {
+    width: 46%;
+    position: absolute;
+    right: 0px;
+    top: 175px;
+}
+h1.hero-heading {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.hero-container-right > div {
+    margin-top: 40px;
+    text-align: center;
+}
+button.button-email {
+    padding: 5px;
+    background: transparent;
+    border-radius: 7px;
+    width: 32%;
+    text-transform: uppercase;
+}
+button.button-join {
+    background: #000;
+    color: #f1f1f1;
+    padding: 4px;
+    border-radius: 8px;
+}
+span.globe img {
+    width: 5%;
+    position: absolute;
+    right: 307px;
+}
+span.star.star2 img {
+    position: relative;
+    top: 141px;
+    left: 150px;
+}
+.icons img {
+    width: 6%;
+}
+p.hero-description {
+    text-align: center;
+}
+h4.contact-heading {
+    margin-bottom: 10px;
+}
+button.nav-button {
+    /* width: 85%; */
+    padding: 5px 25px;
+    border: 3px solid #000;
+    border-radius: 12px;
+}

@@ -1,0 +1,90 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav.navbar {
+    display: flex;
+    background: #000;
+    color: #f1f1f1;
+    padding: 20px 53px;
+}
+img.logo {
+    width: 55%;
+    border-right: 2px solid #f1f1f1;
+    padding-right: 35px;
+}
+
+ul.list {
+    display: flex;
+}
+li.list-item {
+    list-style: none;
+    margin-right: 29px;
+}
+.list-item:nth-child(1)::after{
+    width: 0;
+    height: 0;
+    border: 0.313em solid transparent;
+    border-bottom: none;
+    border-top-color: #f1f1f1;
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    right: -0.313em;
+}
+.grow-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+[aria-label="hero"]{
+    background-image: url('./assets/bg.png');
+    width: 100%;
+    height: 87vh;
+    color: #f1f1f1;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero{
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1.hero-heading {
+    font-size: 48px;
+    width: 33%;
+}
+p.hero-description {
+    font-weight: 600;
+    margin-top: 8px;
+}
+button.button-small {
+    background: #9a067c;
+    color: #f1f1f1;
+    padding: 10px 24px;
+    border-radius: 8px;
+    cursor: grab;
+}
+.button-large{
+    background: #9a067c;
+    color: #f1f1f1;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: transparent;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: grab;
+}

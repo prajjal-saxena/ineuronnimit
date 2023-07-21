@@ -1,0 +1,92 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+p{
+    color: #C3C3C3;
+}
+.list li{
+    color: #C3C3C3;
+}
+.list li:hover{
+    color: #000;
+}
+
+nav {
+    display: flex;
+    margin-top: 33px;
+}
+.navbar-container img{
+    width: 50%;
+}
+nav{
+    display: flex;
+}
+ul.list {
+    display: flex;
+}
+.button-group {
+    width: 47%;
+    display: flex;
+    justify-content: right;
+}
+li.list-item {
+    list-style: none;
+    margin-left: 28px;
+    cursor: grab;
+}
+button.nav-button {
+    background: #5955B3;
+    color: #f1f1f1;
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    cursor: grab;
+}
+button.nav-button {
+    background: #5955B3;
+    color: #f1f1f1;
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    cursor: grab;
+}
+h1.heading-text {
+    font-size: 42px;
+    width: 52%;
+}
+.banner-container img{
+    width: 100%;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 81px;
+}
+.banner-container div{
+    width: 48%;
+}
+h1.heading-text span{
+    color: #5955B3;
+}
+.banner-container div:nth-child(1){
+    margin-top: 40px;
+}
+p.description {
+    width: 54%;
+    margin-top: 18px;
+}
+.banner-container .btn{
+    margin-top: 30px;
+    padding: 15px;
+}
+.btn:hover{
+    background: #5955B3;
+    color: #f1f1f1;
+}

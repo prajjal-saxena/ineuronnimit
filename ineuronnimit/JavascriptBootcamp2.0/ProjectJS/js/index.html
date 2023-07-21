@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <ul class="this">
+          
+        </ul>
+
+        <button onclick="maths()" id="fsjs2">Submit</button>
+        <p id="js"></p>
+    </div>
+    
+    <script>
+       const list = `
+            <li>Rohit</li>
+            <li>Manas</li>
+            <li>Binod</li>
+            `;
+        
+        const ul = document.querySelector("ul");
+        ul.innerHTML = list;
+
+        let title = document.createElement("h1");
+        title.className="title";
+        title.style.fontSize= "25px";
+        title.style.color = "green";
+        title.textContent="Create New Element in Dom2";
+
+        console.log(title);
+
+        document.body.appendChild(title);
+        // Remove child => Assignment
+
+
+        for (let i = 0; i<3;i++){
+            let pra = document.createElement("p");
+            pra.className = "FSJS";
+            pra.style.fontSize = "16px";
+            console.log(pra);
+            pra.textContent = i;
+
+            document.body.appendChild(pra);
+        }
+
+       
+        function maths(){
+            let value = prompt("Solve this 50 -30");
+            
+            if(value == 20){
+              document.getElementById("js").innerText = "Success Redirect";
+              document.getElementById("fsjs2").style.backgroundColor = "Green";
+            }
+            else{
+                document.getElementById("js").innerText = "Fail Try Again";
+                document.getElementById("fsjs2").style.backgroundColor = "Red";
+            }
+        }
+    </script>
+</body>
+</html>
